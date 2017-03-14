@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>todo list</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="show()">
+  <h1>TODO LIST</h1>
+    <!--<label for="add todo">add todo item</label>-->
+    <input type="text" Placeholder="Add Item" id="addTodoItem">
+    <button id="addTodo">ADD</button>
+    <hr>
+  <div id="todoDiv">
+    <ol id="todoList" class="remove">
+    </ol>
+     <ol id="todoList" class="complete">
+    </ol>
+    
+  </div>
+  <!--<footer>-->
+  <!--  <p>click on an item when it is completed.<br>click it again to reset the item if it needs to be done again</p>-->
+  <!--</footer>-->
+  <script src="app.js"></script>
+</body>
+</html>
